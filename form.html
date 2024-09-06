@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Regstration Form</title>
+</head>
+<body>
+    
+    <in class="container d-flex flex-column my-5 d-block">
+
+        <h3 class="text-danger my-3 mx-auto">Registration</h3>
+
+        <label  for="fn" class="form-control border-0"> First Name : </label>
+        <input type="text" name="fn" id="fn">
+        <h6 id="fnrgx" class="text-danger"></h6>
+
+        <label for="ln" class="form-control border-0">Last Name :</label>
+        <input type="text" name="ln" id="ln"></input>
+        <h6 id="lnrgx" class="text-danger"></h6>
+
+        <label for="email" class="form-control border-0">Email :</label>
+        <input type="text" name="email" id="email"></input>
+        <h6 id="emailrgx" class="text-danger"></h6>
+        
+        <label for="pass" class="form-control border-0">Password :</label>
+        <input type="text" name="pass" id="pass"></input>
+        <h6 id="pasrgx" class="text-danger"></h6>
+
+        <label for="repass" class="form-control border-0">Confirm Password :</label>
+        <input type="text" name="repass" id="repass"></input>
+        <h6 id="psc" class="text-danger"></h6>
+
+        <label for="no." class="form-control border-0" >Phone Number :</label>
+        <input type="text" name="no." id="no." value="02"></input>
+        <h6 id="norgx" class="text-danger"></h6>
+
+        <label for="img" class="form-control border-0">Image :</label>
+        <input type="file" id="img"  accept="image/*"></input>
+        <h6 id="imgrgx" class="text-danger"></h6>
+     
+        <button id="btn" onclick="save()" class="btn btn-outline-danger my-3 rounded-pill " ><b>Submit</b></button>
+
+
+
+
+
+
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/form.js"></script>
+        
+    </div>
