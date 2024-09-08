@@ -41,6 +41,7 @@ function clearData() {
   document.getElementById("pass").value = "";
   document.getElementById("repass").value = "";
   document.getElementById("no.").value = "";
+  document.getElementById("img").value = "";
 }
 
 
@@ -105,8 +106,6 @@ function validationData() {
   } else {
     document.getElementById("imgrgx").innerHTML = "";
   }
-
-
-  clearData();
+  
   return true;
 }
